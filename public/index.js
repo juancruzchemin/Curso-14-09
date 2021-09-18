@@ -1,0 +1,1 @@
+ReactDOM.render(<Carrito />, document.querySelector("#root"));

@@ -1,0 +1,21 @@
+#root {
+  margin: 2;
+  padding: 2;
+  color: snow;
+  text-align: right;
+}
+
+header {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #5ab2d0;
+}
+
+.menor {
+  color: tomato;
+}
+
+.mayor {
+  color: greenyellow;
+}
