@@ -1,5 +1,8 @@
+import { useState } from "react";
+
 const Carrito = () => {
-    const [contador, setContador] = React.useState(0);
+    
+    const [contador, setContador] = useState(0);
 
     const aumentar = () => setContador(contador + 1);
     const disminuir = () => setContador(contador - 1);
@@ -15,3 +18,4 @@ const Carrito = () => {
     );
 };
 
+export default Carrito;
